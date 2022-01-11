@@ -54,6 +54,7 @@ int main()
             printf("Try a greater number.\tNumber of attempts left are %d\n", i2);
         }
     }
+    printf("The number was %d", actualNumber2);
 
     if (i1 == i2)
     {
@@ -68,6 +69,6 @@ int main()
         printf("Player2 wins over Player1 as he lefts with %d attempts more than Player1", i2 - i1);
     }
 
-    printf("The number was %d", actualNumber2);
+    
     return 0;
 }
