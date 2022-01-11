@@ -30,7 +30,7 @@ int main()
             printf("Try a greater number.\tNumber of attempts left are %d\n", i1);
         }
     }
-    printf("The number was %d", actualNumber1);
+    printf("The number was %d", actualNumber2);
 
     //******Player 2
 
